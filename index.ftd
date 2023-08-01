@@ -1,40 +1,367 @@
--- ds.page: Welcome to doc-site
+-- ftd.text: Hola Guizz !!
+color: white
+region: h2
+text-align: center
+width: fill-container
+background.solid: black
+padding.px: 20
+
+-- ftd.row:
+width: fill-container
+background.solid: #0C0C0C
+padding.px: 20
+region: h3
+border-width.px: 1
+border-color: white
+spacing: space-evenly
+
+-- ftd.text: Home
+color: white
+margin-right.rem: 10
+
+-- ftd.text: About Us
+color: white
+margin-right.rem: 10
+
+-- ftd.text: Achievements
+color: white
+margin-right.rem: 10
+
+-- ftd.text: Contact Us
+color: white
+margin-right.rem: 10
+
+-- ftd.text-input:
+placeholder: Type any text ...
+padding-horizontal.px: 20
+padding-vertical.px: 6
+width.fixed.px: 400
+border-width.px: 1
+border-color: $inherited.colors.border
+border-radius.px: 4
+$on-input$: $ftd.set-string($a = $current-value, v = $VALUE)
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- end: ftd.row
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- import: fastn.com/assets
 
--- ds.h3: 🚀 Fast Track 
+-- ftd.row:
+spacing: space-evenly
+background.solid: #0f1810
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
+-- ftd.column:
 
--- ds.h3: 🌟 Whats next?
+-- ftd.text: 
+text-align: start
+width.fixed.percent: 100
+region: h1
+padding-top.rem : 12
+padding-left.rem: 10
+background.solid: #0f1810
+color: white
 
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
+It's Mayur Kawale
 
--- ds.h3: 👀 Want to learn more?
+-- ftd.text: 
+text-align: start
+;; width.fixed.percent: 60
+region: h2
+padding-top.rem : 2
+padding-horizontal.rem: 10
+background.solid: #0f1810
+color: white
+height.fixed.vh: 62.2
 
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+Passionate about Communication, and C++,Python 
+Programming Language with a broad knowledge in computer science principles. 
+Always interested in expanding my knowledge and learning something new everyday. 
+I am always open to hearing about new opportunities
 
 
--- ds.h3: 🎯 Used by?
+-- ftd.text: Front End Developer
+region: h2
+;; left.px: 300
+;; top.vh: 48
+margin-left.rem: 20
+margin-top.rem: 27
+padding.px: 25
+style: bold
+width.fixed.px: 300
+text-align: center
+border-width.px: 2
+background.solid: #f0db9c
+color: black
+z-index: 3 
+anchor: parent
+border-radius.px : 100
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.text: Competitive Coder
+region: h2
+;; left.px: 400
+;; top.vh: 54
+margin-left.rem: 24
+margin-top.rem: 31
+padding.px: 25
+text-align: center
+style: bold
+width.fixed.px: 300
+border-width.px: 2
+background.solid: #f0db9c
+color: black
+z-index: 2 
+anchor: parent
+border-radius.px : 100
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.text: BlockChain Developer
+region: h2
+;; left.px: 520
+;; top.vh: 60
+margin-left.rem: 28
+margin-top.rem: 35
+style: bold
+padding.px: 25
+text-align: center
+width.fixed.px: 300
+border-width.px: 2
+background.solid: #f0db9c
+color: black
+z-index: 1 
+anchor: parent
+border-radius.px : 100
 
--- ds.h2: Learn fastn and become a pro?
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- end: ftd.column
 
--- end: ds.page
+
+
+
+-- ftd.image: myha.png
+alt: Image can't be displayed 
+color: $inherited.colors.text
+background.solid: #0f1810
+height.fixed.rem: 51.8
+
+
+
+
+-- end: ftd.row
+
+
+-- string $current-value: Nothing typed yet
+
+
+-- ftd.text:
+background.solid: #b4a167
+width.fixed.percent: 100
+color: black
+padding-left.percent: 47
+display: inline
+region: h1
+padding-vertical.px: 10
+
+My Projects
+
+-- ftd.row:
+;; spacing.fixed.px: 20
+background.solid: #0f1810
+padding-vertical.vh: 20
+
+-- ftd.column:
+
+-- ftd.text:
+region: h1
+color: white
+margin-horizontal.rem: 12
+padding-top.rem: 2
+margin-vertical.rem: 2
+
+Wether Website
+
+-- ftd.text:
+display: inline
+color: black
+width.fixed.percent: 50
+margin-horizontal.rem: 10
+;; margin-vertical.rem: 10
+background.solid: #b4a167
+border-radius.px: 30
+padding.rem: 2
+region: h4
+shadow: $content-shadow
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae, possimus magni minus modi, 
+eum molestiae deserunt hic aperiam voluptate mollitia aspernatur numquam aut sunt odit, dolorum 
+enim cum quia rerum facere ad. Fuga beatae ipsa libero nostrum ratione error a culpa perferendis 
+corporis, velit, nobis nulla iusto! Eum fuga delectus a iure quas, minus at fugit incidunt nobis facere!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae, possimus magni minus modi, 
+eum molestiae deserunt hic aperiam voluptate mollitia aspernatur numquam aut sunt odit, dolorum 
+
+-- end: ftd.column
+
+
+-- ftd.column:
+
+-- ftd.text:
+region: h1
+color: white
+display: inline
+margin-horizontal.rem: 13
+padding-top.rem: 2
+margin-vertical.rem: 2
+
+Payment Dapp
+
+-- ftd.text:
+display: inline
+color: black
+width.fixed.percent: 50
+margin-horizontal.rem: 10
+;; margin-vertical.rem: 10
+background.solid: #b4a167
+border-radius.px: 30
+padding.rem: 2
+region: h4
+shadow: $content-shadow
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae, possimus magni minus modi, 
+eum molestiae deserunt hic aperiam voluptate mollitia aspernatur numquam aut sunt odit, dolorum 
+enim cum quia rerum facere ad. Fuga beatae ipsa libero nostrum ratione error a culpa perferendis 
+corporis, velit, nobis nulla iusto! Eum fuga delectus a iure quas, minus at fugit incidunt nobis facere!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae, possimus magni minus modi, 
+eum molestiae deserunt hic aperiam voluptate mollitia aspernatur numquam aut sunt odit, dolorum 
+
+-- end: ftd.column
+
+-- ftd.column:
+;; spacing.fixed.px: 20
+
+-- ftd.text:
+region: h1
+color: white
+display: inline
+margin-horizontal.rem: 12
+padding-top.rem: 2
+margin-vertical.rem: 2
+
+Chatting Website
+
+-- ftd.text:
+display: inline
+color: black
+width.fixed.percent: 50
+margin-horizontal.rem: 10
+;; margin-vertical.rem: 10
+background.solid: #b4a167
+border-radius.px: 30
+padding.rem: 2
+region: h4
+shadow: $content-shadow
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae, possimus magni minus modi, 
+eum molestiae deserunt hic aperiam voluptate mollitia aspernatur numquam aut sunt odit, dolorum 
+enim cum quia rerum facere ad. Fuga beatae ipsa libero nostrum ratione error a culpa perferendis 
+corporis, velit, nobis nulla iusto! Eum fuga delectus a iure quas, minus at fugit incidunt nobis facere!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta vitae, possimus magni minus modi, 
+eum molestiae deserunt hic aperiam voluptate mollitia aspernatur numquam aut sunt odit, dolorum 
+
+-- end: ftd.column
+ 
+
+-- end: ftd.row
+
+-- ftd.shadow shadow:
+y-offset.px: 10
+x-offset.px: 10
+spread.px: 100
+blur.px: 4
+color: white
+
+
+
+-- ftd.shadow content-shadow:
+y-offset.px: 6
+x-offset.px: 6
+spread.px: 2
+blur.px: 10
+color: #f7edce
+
+
+-- ftd.text:
+background.solid: #b4a167
+width.fixed.percent: 100
+color: black
+padding-left.percent: 47
+display: inline
+region: h1
+padding-vertical.px: 10
+
+Contact Me
+
+-- ftd.row:
+background.solid: #0f1810
+padding-vertical.vh: 14
+width.fixed.percent: 100
+padding-left.percent: 36
+
+-- ftd.column:
+margin-horizontal.rem: 3
+
+-- ftd.image: insta2.png
+alt: Image can't be displayed 
+color: $inherited.colors.text
+background.solid: #0f1810
+height.fixed.rem: 3
+padding-left.rem: 1
+
+-- ftd.text:
+color: white
+padding-top.rem: 2
+region: h2
+
+[Instagram](https://www.instagram.com/_mayur.kawale_/)
+
+-- end: ftd.column
+
+-- ftd.column:
+margin-horizontal.rem: 3
+
+-- ftd.image: linkedin.png
+alt: Image can't be displayed 
+color: $inherited.colors.text
+background.solid: #0f1810
+height.fixed.rem: 3
+padding-left.rem: 1
+
+-- ftd.text:
+color: white
+padding-top.rem: 2
+region: h2
+
+[LinkdeIn](https://www.linkedin.com/in/mayur-kawale-15a2b2250/)
+
+-- end: ftd.column
+
+-- ftd.column:
+margin-horizontal.rem: 3
+
+-- ftd.image: twitter.png
+alt: Image can't be displayed 
+color: $inherited.colors.text
+background.solid: #0f1810
+height.fixed.rem: 3
+padding-left.rem: 1
+
+-- ftd.text:
+color: white
+padding-top.rem: 2
+region: h2
+padding-left.rem: 2
+
+[X](https://twitter.com/mayurk_04)
+
+-- end: ftd.column
+
+
+-- end: ftd.row

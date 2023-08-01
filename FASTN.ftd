@@ -1,18 +1,3 @@
--- import: fastn
+-- import : fastn as f
 
--- fastn.package: mefisto04.github.io/fastn_portfoliomk
-favicon: /-/mefisto04.github.io/fastn_portfoliomk/favicon.ico
-
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
-
--- fastn.auto-import: mefisto04.github.io/fastn_portfoliomk/FASTN/ds
--- fastn.auto-import: mefisto04.github.io/fastn_portfoliomk/assets
--- fastn.auto-import: doc-site
-
--- fastn.sitemap:
-
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- f.package: portfolio
